@@ -27,6 +27,21 @@
     <Filter Include="Scenes">
       <UniqueIdentifier>{b107a30c-ab99-45ed-8bdb-08dce492cad3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Convenient">
+      <UniqueIdentifier>{0c34fd1b-9b6d-471d-a05f-6dcf5ca13b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\TextManager">
+      <UniqueIdentifier>{f602e07e-b461-4164-804d-ce3bee6cef3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\ObjectManager">
+      <UniqueIdentifier>{8e0351c5-8328-4c59-b73a-eadabdb36502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{7286e1ef-d999-4be6-a790-b3895e68bafb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\InputManager">
+      <UniqueIdentifier>{b6030e33-a8e0-4b46-953e-cee70636a672}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXUT\Optional\directx.ico">
@@ -101,6 +116,21 @@
     <ClCompile Include="InGameScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
+    <ClCompile Include="FRAME.cpp">
+      <Filter>Convenient</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>FrameWork\TextManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>FrameWork\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>FrameWork\InputManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -121,6 +151,21 @@
     </ClInclude>
     <ClInclude Include="InGameScene.h">
       <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="FRAME.h">
+      <Filter>Convenient</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>FrameWork\TextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>FrameWork\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>FrameWork\InputManager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -385,17 +385,27 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FRAME.cpp" />
     <ClCompile Include="ImageManager.cpp" />
     <ClCompile Include="InGameScene.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="MainProc.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="TextManager.cpp" />
     <ClInclude Include="BaseScene.h" />
+    <ClInclude Include="FRAME.h" />
     <ClInclude Include="ImageManager.h" />
     <ClInclude Include="InGameScene.h" />
+    <ClInclude Include="InputManager.h" />
     <ClInclude Include="MainProc.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectManager.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TextManager.h" />
     <None Include="DXUT\Optional\directx.ico" />
     <ClInclude Include="DXUT\Core\DXUT.h" />
     <ClInclude Include="DXUT\Core\DXUTenum.h" />

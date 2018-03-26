@@ -9,6 +9,7 @@ void MainProc::Init()
 
 void MainProc::Update()
 {
+	INPUTMANAGER->Update();
 	SCENEMANAGER->Update();
 }
 
@@ -27,6 +28,9 @@ void MainProc::Release()
 	IMAGEMANAGER->ReleaseSingleton();
 	SCENEMANAGER->Release();
 	SCENEMANAGER->ReleaseSingleton();
+	INPUTMANAGER->ReleaseSingleton();
+	TEXTMANAGER->ReleaseSingleton();
+	
 }
 
 MainProc::MainProc()
