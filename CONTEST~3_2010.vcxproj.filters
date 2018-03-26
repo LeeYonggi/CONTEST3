@@ -27,9 +27,6 @@
     <Filter Include="Scenes">
       <UniqueIdentifier>{b107a30c-ab99-45ed-8bdb-08dce492cad3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Convenient">
-      <UniqueIdentifier>{0c34fd1b-9b6d-471d-a05f-6dcf5ca13b03}</UniqueIdentifier>
-    </Filter>
     <Filter Include="FrameWork\TextManager">
       <UniqueIdentifier>{f602e07e-b461-4164-804d-ce3bee6cef3f}</UniqueIdentifier>
     </Filter>
@@ -41,6 +38,9 @@
     </Filter>
     <Filter Include="FrameWork\InputManager">
       <UniqueIdentifier>{b6030e33-a8e0-4b46-953e-cee70636a672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{0c34fd1b-9b6d-471d-a05f-6dcf5ca13b03}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -117,7 +117,7 @@
       <Filter>Scenes</Filter>
     </ClCompile>
     <ClCompile Include="FRAME.cpp">
-      <Filter>Convenient</Filter>
+      <Filter>utility</Filter>
     </ClCompile>
     <ClCompile Include="TextManager.cpp">
       <Filter>FrameWork\TextManager</Filter>
@@ -153,7 +153,7 @@
       <Filter>Scenes</Filter>
     </ClInclude>
     <ClInclude Include="FRAME.h">
-      <Filter>Convenient</Filter>
+      <Filter>utility</Filter>
     </ClInclude>
     <ClInclude Include="TextManager.h">
       <Filter>FrameWork\TextManager</Filter>
