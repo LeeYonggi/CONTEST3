@@ -42,6 +42,39 @@
     <Filter Include="utility">
       <UniqueIdentifier>{0c34fd1b-9b6d-471d-a05f-6dcf5ca13b03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FrameWork\StageManager">
+      <UniqueIdentifier>{841058b1-1828-4306-bf44-be1000b605f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Tile">
+      <UniqueIdentifier>{215f4b5f-5997-44a1-83a6-7e0a14d765e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\CameraManager">
+      <UniqueIdentifier>{a8ab08f2-81be-4e2a-9ebf-3eafd78a8452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\BattleShip">
+      <UniqueIdentifier>{164e9c7a-1896-4647-9292-0f3d8ce01f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\UIManager">
+      <UniqueIdentifier>{b5ae0086-faf0-40e8-bee9-b06a886ecc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{44c912bc-59a3-494d-b083-07d9c451e8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SoundManager">
+      <UniqueIdentifier>{ce6ea030-0a17-4504-808e-6188ff72c3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\BackGround">
+      <UniqueIdentifier>{429a7768-a095-47c1-a715-3dbf49d130cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\EffectManager">
+      <UniqueIdentifier>{13d1cee0-c13b-42eb-a8db-794077d95308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet">
+      <UniqueIdentifier>{0fe70810-e67d-4df1-a8e5-bab283cf4046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Forg">
+      <UniqueIdentifier>{1f90793b-ebc6-48c5-8690-d3baaec64d0d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="DXUT\Optional\directx.ico">
@@ -131,6 +164,54 @@
     <ClCompile Include="InputManager.cpp">
       <Filter>FrameWork\InputManager</Filter>
     </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>FrameWork\StageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="mTile.cpp">
+      <Filter>Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>FrameWork\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip.cpp">
+      <Filter>Object\BattleShip</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>FrameWork\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="eAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>FrameWork\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Object\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>FrameWork\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Forg.cpp">
+      <Filter>Object\Forg</Filter>
+    </ClCompile>
+    <ClCompile Include="BackWorld.cpp">
+      <Filter>Object\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -166,6 +247,54 @@
     </ClInclude>
     <ClInclude Include="InputManager.h">
       <Filter>FrameWork\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>FrameWork\StageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="mTile.h">
+      <Filter>Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>FrameWork\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip.h">
+      <Filter>Object\BattleShip</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>FrameWork\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="eAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>FrameWork\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Object\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>FrameWork\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Forg.h">
+      <Filter>Object\Forg</Filter>
+    </ClInclude>
+    <ClInclude Include="BackWorld.h">
+      <Filter>Object\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scenes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

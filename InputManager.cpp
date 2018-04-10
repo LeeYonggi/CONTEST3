@@ -1,28 +1,22 @@
 #include "DXUT.h"
 #include "InputManager.h"
 
-
-void InputManager::Init()
-{
-	memset(updateKey, false, sizeof(updateKey));
-	memset(pastKey, false, sizeof(updateKey));
-	mouse = { 0, 0 };
-}
-
 void InputManager::Update()
 {
-	memcpy(pastKey, updateKey, sizeof(updateKey));
+	memcpy(pastKey, nowKey, sizeof(nowKey));
 
 	for (int i = 0; i < MAX_KEY; i++)
-		updateKey[i] = GetAsyncKeyState(i) & 0x8000;
+		nowKey[i] = GetAsyncKeyState(i) & 0x8000;
 
-	::GetCursorPos(&mouse);
-	::ScreenToClient(DXUTGetHWND(), &mouse);
+	GetCursorPos(&pMouse);
+	ScreenToClient(DXUTGetHWND(), &pMouse);
 }
 
 InputManager::InputManager()
 {
-	Init();
+	memset(nowKey, false, sizeof(nowKey));
+	memset(pastKey, false, sizeof(pastKey));
+	pMouse = { 0, 0 };
 }
 
 

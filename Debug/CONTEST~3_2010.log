@@ -1,4 +1,191 @@
-﻿  SceneManager.cpp
-d:\programming\pj\contest~3\scenemanager.cpp(7): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  CONTEST~3_2010.vcxproj -> D:\Programming\PJ\CONTEST~3\Debug\CONTEST~3.exe
-  CONTEST~3_2010.vcxproj -> D:\Programming\PJ\CONTEST~3\Debug\CONTEST~3.pdb (Full PDB)
+﻿  DXUT.cpp
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(52937): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(52946): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(52955): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(52964): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(52973): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(52982): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(52991): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53006): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53015): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53024): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53033): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53042): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53051): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53061): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53070): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53080): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53089): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53099): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53108): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53117): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53127): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53136): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53376): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\winerror.h(53385): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+g:\programming\pj\contest~3\cameramanager.h(14): warning C4458: 'frame' 선언은 클래스 멤버를 숨깁니다.
+  g:\programming\pj\contest~3\cameramanager.h(7): note: 'CameraManager::frame' 선언을 참조하십시오.
+g:\programming\pj\contest~3\dxut\core\dxut.cpp(696): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+g:\programming\pj\contest~3\dxut\core\dxut.cpp(697): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+g:\programming\pj\contest~3\dxut\core\dxut.cpp(4961): warning C4996: 'GetVersionExW': deprecated로 선언되었습니다.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\sysinfoapi.h(445): note: 'GetVersionExW' 선언을 참조하십시오.
+  BackGround.cpp
+g:\programming\pj\contest~3\background.cpp(39): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+g:\programming\pj\contest~3\background.cpp(33): warning C4189: 'camAngle': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+  BackWorld.cpp
+  BattleShip.cpp
+g:\programming\pj\contest~3\battleship.h(34): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\battleship.cpp(21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\battleship.cpp(38): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\battleship.cpp(49): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\battleship.cpp(37): warning C4189: 'num': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+g:\programming\pj\contest~3\battleship.cpp(48): warning C4189: 'num': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+g:\programming\pj\contest~3\battleship.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+g:\programming\pj\contest~3\battleship.cpp(109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+g:\programming\pj\contest~3\battleship.cpp(117): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  Bullet.cpp
+  CameraManager.cpp
+g:\programming\pj\contest~3\cameramanager.cpp(20): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  eAI.cpp
+g:\programming\pj\contest~3\eai.cpp(40): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\eai.cpp(114): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\eai.cpp(127): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\eai.cpp(141): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\eai.cpp(160): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EffectManager.cpp
+g:\programming\pj\contest~3\effectmanager.cpp(16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\effectmanager.cpp(25): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\effectmanager.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  EndingScene.cpp
+g:\programming\pj\contest~3\endingscene.cpp(27): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  Forg.cpp
+g:\programming\pj\contest~3\forg.cpp(11): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\forg.cpp(17): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\forg.cpp(19): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\forg.cpp(20): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\forg.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  FRAME.cpp
+g:\programming\pj\contest~3\frame.cpp(5): warning C4458: 'time' 선언은 클래스 멤버를 숨깁니다.
+  g:\programming\pj\contest~3\frame.h(8): note: 'FRAME::time' 선언을 참조하십시오.
+g:\programming\pj\contest~3\frame.cpp(5): warning C4458: 'delay' 선언은 클래스 멤버를 숨깁니다.
+  g:\programming\pj\contest~3\frame.h(9): note: 'FRAME::delay' 선언을 참조하십시오.
+g:\programming\pj\contest~3\frame.cpp(11): warning C4458: 'frame' 선언은 클래스 멤버를 숨깁니다.
+  g:\programming\pj\contest~3\frame.h(7): note: 'FRAME::frame' 선언을 참조하십시오.
+g:\programming\pj\contest~3\frame.cpp(11): warning C4458: 'delay' 선언은 클래스 멤버를 숨깁니다.
+  g:\programming\pj\contest~3\frame.h(9): note: 'FRAME::delay' 선언을 참조하십시오.
+g:\programming\pj\contest~3\frame.cpp(16): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ImageManager.cpp
+g:\programming\pj\contest~3\imagemanager.cpp(20): warning C4189: 'a': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+  InGameScene.cpp
+  InputManager.cpp
+  LoadScene.cpp
+g:\programming\pj\contest~3\loadscene.cpp(9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(48): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(104): note: 'wcscat' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(49): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(104): note: 'wcscat' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(67): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(104): note: 'wcscat' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(68): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(104): note: 'wcscat' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(47): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstdlib.h(69): note: '_itow' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(66): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstdlib.h(69): note: '_itow' 선언을 참조하십시오.
+g:\programming\pj\contest~3\loadscene.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  MainProc.cpp
+g:\programming\pj\contest~3\mainproc.cpp(7): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MainScene.cpp
+  mTile.cpp
+g:\programming\pj\contest~3\battleship.h(34): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\mtile.cpp(15): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\mtile.cpp(19): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\mtile.cpp(48): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\mtile.cpp(85): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\mtile.cpp(123): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Object.cpp
+  ObjectManager.cpp
+g:\programming\pj\contest~3\objectmanager.cpp(29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\objectmanager.cpp(31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\objectmanager.cpp(45): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\objectmanager.cpp(47): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\objectmanager.cpp(61): warning C4456: 'iter_' 선언은 이전 로컬 선언을 숨깁니다.
+  g:\programming\pj\contest~3\objectmanager.cpp(28): note: 'iter_' 선언을 참조하십시오.
+  SceneManager.cpp
+g:\programming\pj\contest~3\scenemanager.cpp(7): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+g:\programming\pj\contest~3\objectmanager.cpp(109): warning C4715: 'ObjectManager::GetvObject': 모든 제어 경로에서 값을 반환하지는 않습니다.
+g:\programming\pj\contest~3\effectmanager.cpp(64): warning C4715: 'Effect::Update': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  SoundManager.cpp
+  StageManager.cpp
+g:\programming\pj\contest~3\battleship.h(34): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\stagemanager.cpp(55): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\stagemanager.cpp(61): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+g:\programming\pj\contest~3\stagemanager.cpp(65): warning C4389: '==': signed 또는 unsigned가 일치하지 않습니다.
+  TextManager.cpp
+  Tile.cpp
+g:\programming\pj\contest~3\battleship.h(34): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\tile.cpp(33): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\tile.cpp(163): warning C4189: 'a': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+  UIManager.cpp
+g:\programming\pj\contest~3\uimanager.cpp(73): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+g:\programming\pj\contest~3\uimanager.cpp(74): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DXUTenum.cpp
+  DXUTmisc.cpp
+g:\programming\pj\contest~3\dxut\core\dxutmisc.cpp(1263): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\sysinfoapi.h(436): note: 'GetVersionExA' 선언을 참조하십시오.
+  DXUTcamera.cpp
+  DXUTgui.cpp
+g:\programming\pj\contest~3\dxut\optional\dxutgui.cpp(6846): warning C4458: 'iTexture' 선언은 클래스 멤버를 숨깁니다.
+  g:\programming\pj\contest~3\dxut\optional\dxutgui.h(109): note: 'CDXUTElement::iTexture' 선언을 참조하십시오.
+g:\programming\pj\contest~3\dxut\optional\dxutgui.cpp(6860): warning C4458: 'iFont' 선언은 클래스 멤버를 숨깁니다.
+  g:\programming\pj\contest~3\dxut\optional\dxutgui.h(110): note: 'CDXUTElement::iFont' 선언을 참조하십시오.
+g:\programming\pj\contest~3\dxut\optional\dxutgui.cpp(6860): warning C4458: 'dwTextFormat' 선언은 클래스 멤버를 숨깁니다.
+  g:\programming\pj\contest~3\dxut\optional\dxutgui.h(111): note: 'CDXUTElement::dwTextFormat' 선언을 참조하십시오.
+  DXUTres.cpp
+  DXUTsettingsdlg.cpp
+  SDKmesh.cpp
+  SDKmisc.cpp
+  CONTEST~3.cpp
+  코드를 생성하고 있습니다...
+BackGround.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+  CONTEST~3_2010.vcxproj -> G:\Programming\PJ\CONTEST~3\Debug\CONTEST~3.exe
+  CONTEST~3_2010.vcxproj -> G:\Programming\PJ\CONTEST~3\Debug\CONTEST~3.pdb (Full PDB)

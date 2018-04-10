@@ -77,6 +77,9 @@
 #include <vector>
 #include <map>
 #include <list>
+#include <time.h>
+#include <algorithm>
+#include <Digitalv.h>
 using namespace std;
 
 // CRT's memory leak detection

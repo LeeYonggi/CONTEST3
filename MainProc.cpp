@@ -4,13 +4,14 @@
 
 void MainProc::Init()
 {
-	SCENEMANAGER->AddScenes(new InGameScene);
+	srand(time(NULL));
+	SCENEMANAGER->AddScenes(new LoadScene);
 }
 
 void MainProc::Update()
 {
-	INPUTMANAGER->Update();
 	SCENEMANAGER->Update();
+	INPUTMANAGER->Update();
 }
 
 void MainProc::Render()
@@ -30,7 +31,12 @@ void MainProc::Release()
 	SCENEMANAGER->ReleaseSingleton();
 	INPUTMANAGER->ReleaseSingleton();
 	TEXTMANAGER->ReleaseSingleton();
-	
+	OBJECTMANAGER->Release();
+	OBJECTMANAGER->ReleaseSingleton();
+	UIMANAGER->ReleaseSingleton();
+	UIMANAGER->Release();
+	EFFECTMANAGER->ReleaseSingleton();
+	EFFECTMANAGER->Release();
 }
 
 MainProc::MainProc()

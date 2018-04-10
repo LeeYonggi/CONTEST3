@@ -4,16 +4,17 @@
 
 void FRAME::SetTime(INT64 time, float delay)
 {
-	this->time = time;
+	this->time = time / 100;
 	this->delay = delay;
 }
 
-void FRAME::CheckFrame(int frame, int low, int high, int delay)
+FLOAT FRAME::CheckFrame(FLOAT frame, int low, int high, FLOAT delay)
 {
 	if (frame < high)
-		frame++;
+		frame += delay;
 	else
 		frame = low;
+	return frame;
 }
 
 FRAME::FRAME()

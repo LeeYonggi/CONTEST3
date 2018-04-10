@@ -2,6 +2,7 @@
 class InGameScene :
 	public BaseScene
 {
+private:
 public:
 	void Init();
 	void Update();

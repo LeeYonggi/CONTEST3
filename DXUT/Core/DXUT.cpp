@@ -2940,7 +2940,7 @@ HRESULT DXUTCreate3DEnvironment9( IDirect3DDevice9* pd3dDeviceFromApp )
         IDirect3D9* pD3D = DXUTGetD3D9Object();
         assert( pD3D != NULL );
         hr = pD3D->CreateDevice( pNewDeviceSettings->d3d9.AdapterOrdinal, pNewDeviceSettings->d3d9.DeviceType,
-                                 DXUTGetHWNDFocus(), pNewDeviceSettings->d3d9.BehaviorFlags,
+                                 DXUTGetHWNDFocus(), pNewDeviceSettings->d3d9.BehaviorFlags | D3DCREATE_MULTITHREADED,
                                  &pNewDeviceSettings->d3d9.pp, &pd3dDevice );
         if( hr == D3DERR_DEVICELOST )
         {

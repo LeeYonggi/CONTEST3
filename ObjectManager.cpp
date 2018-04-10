@@ -24,6 +24,38 @@ void ObjectManager::Update()
 
 void ObjectManager::Render()
 {
+	auto find = m_Object.find(M_OBJECT);
+	auto iter_ = *find->second;
+	for (int i = 0; i < find->second->size(); i++)
+	{
+		for (int j = 1 + i; j < find->second->size(); j++)
+		{
+			if (iter_[i]->GetPos().y >= iter_[j]->GetPos().y)
+			{
+				auto temp = iter_[i];
+				iter_[i] = iter_[j];
+				iter_[j] = temp;
+			}
+		}
+	}
+	*m_Object.find(M_OBJECT)->second = iter_;
+
+	auto find2 = m_Object.find(E_OBJECT);
+	auto iter_2 = *find2->second;
+	for (int i = 0; i < find2->second->size(); i++)
+	{
+		for (int j = 1 + i; j < find2->second->size(); j++)
+		{
+			if (iter_2[i]->GetPos().y >= iter_2[j]->GetPos().y)
+			{
+				auto temp = iter_2[i];
+				iter_2[i] = iter_2[j];
+				iter_2[j] = temp;
+			}
+		}
+	}
+	*m_Object.find(E_OBJECT)->second = iter_2;
+
 	for (auto iter : m_Object)
 	{
 		for (auto iter_ : *iter.second)
@@ -43,8 +75,8 @@ void ObjectManager::Release()
 			SAFE_RELEASE(iter_);
 			SAFE_DELETE(iter_);
 		}
+		iter.second->clear();
 	}
-	m_Object.clear();
 }
 
 void ObjectManager::DestroyObject(OBJECT_STATE kind)
@@ -65,21 +97,28 @@ Object * ObjectManager::AddObject(OBJECT_STATE kind, Object * obj)
 	if (iter == m_Object.end()) return nullptr;
 	iter->second->push_back(obj);
 
+	obj->Init();
 	return obj;
 }
 
-vector<Object*>* ObjectManager::GetvObject(OBJECT_STATE kind)
+vector<Object*> ObjectManager::GetvObject(OBJECT_STATE kind)
 {
 	auto iter = m_Object.find(kind);
 	if (iter != m_Object.end())
-		return iter->second;
+	return *(iter->second);
 }
 
 ObjectManager::ObjectManager()
 {
+
 }
 
 
 ObjectManager::~ObjectManager()
 {
+	for (auto iter : m_Object)
+	{
+		SAFE_DELETE(iter.second);
+	}
+	m_Object.clear();
 }

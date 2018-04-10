@@ -1,15 +1,17 @@
 #pragma once
+
+#define TIME_DELTA timeGetTime() / 100
 class FRAME
 {
 public:
-	int		frame;
+	FLOAT	frame;
 	INT64	time;
 	float	delay;
 	void SetTime(INT64 time, float delay);
-	void CheckFrame(int frame, int low, int high, int delay);
+	FLOAT CheckFrame(FLOAT frame, int low, int high, FLOAT delay);
 	bool IsTimeDelay()
 	{
-		return timeGetTime() > time + delay;
+		return TIME_DELTA > time + delay;
 	}
 
 	FRAME();

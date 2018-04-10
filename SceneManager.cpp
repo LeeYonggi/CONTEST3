@@ -32,7 +32,8 @@ void SceneManager::Update()
 
 void SceneManager::Render()
 {
-	v_Scenes[update]->Render();
+	if (pastUpdate == update)
+		v_Scenes[update]->Render();
 }
 
 void SceneManager::Release()
